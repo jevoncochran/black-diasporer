@@ -11,6 +11,10 @@ const theme = createTheme({
   typography: {
     allVariants: {
       color: "#fff",
+      fontFamily: "Merriweather",
+    },
+    body1: {
+      fontSize: "18px",
     },
   },
 });

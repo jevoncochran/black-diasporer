@@ -1,11 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 // Theme Registry component is used because createTheme from MUI can only be used in client components
 import ThemeRegistry from "./theme-registry";
 import Navbar from "@/components/navbar";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",

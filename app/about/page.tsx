@@ -9,7 +9,9 @@ const AboutPage = () => {
       minHeight="calc(100vh - 100px)"
       padding={paddingDefault}
     >
-      <Typography textAlign="center">ABOUT</Typography>
+      <Typography variant="h3" textAlign="center">
+        ABOUT
+      </Typography>
       <Box position="relative" width="100%" height={500}>
         <Image
           fill
