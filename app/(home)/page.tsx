@@ -1,10 +1,11 @@
-import Navbar from "@/components/Navbar";
-import Billboard from "@/components/Billboard";
+import Billboard from "@/components/billboard";
+import MissionStatement from "./mission-statement";
 
 export default function Home() {
   return (
     <main>
       <Billboard />
+      <MissionStatement />
     </main>
   );
 }
