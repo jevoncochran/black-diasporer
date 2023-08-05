@@ -13,6 +13,7 @@ interface SocialLink {
   url: string;
   network: string;
   bgColor?: string;
+  fgColor?: string;
 }
 
 const routes: NavRoute[] = [
@@ -39,6 +40,7 @@ const socials: SocialLink[] = [
     url: "https://www.tiktok.com/@blackdiasporer?_t=8eZPzg96L7V&_r=1",
     network: "tiktok",
     bgColor: "#FFF",
+    fgColor: "transparent",
   },
 ];
 
@@ -100,6 +102,7 @@ const Navbar = () => {
               network={social.network}
               bgColor={social.bgColor}
               style={{ height: 30, width: 30 }}
+              fgColor={social.fgColor ? social.fgColor : "#FFF"}
             />
           ))}
         </Box>
