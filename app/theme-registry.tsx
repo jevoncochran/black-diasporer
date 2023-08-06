@@ -10,10 +10,13 @@ import CssBaseline from "@mui/material/CssBaseline";
 const theme = createTheme({
   typography: {
     allVariants: {
+      margin: 0,
+      padding: 0,
       color: "#fff",
       fontFamily: "Merriweather",
     },
     body1: {
+      lineHeight: "200%",
       fontSize: "18px",
     },
   },
